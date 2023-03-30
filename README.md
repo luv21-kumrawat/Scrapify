@@ -7,7 +7,10 @@
 
 > An Online Scrap-Waste Management Platform
 
-## Install
+## Install 
+
+Make sure you have npx installed (npx is shipped by default since npm 5.2.0)
+Just run the following command at the root of your project and answer questions:
 
 ```sh
 npm install
