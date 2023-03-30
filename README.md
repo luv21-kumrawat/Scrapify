@@ -9,12 +9,25 @@
 
 ## Install 
 
-Make sure you have npx installed (npx is shipped by default since npm 5.2.0)
+Make sure you have [npm] installed.
+
 Just run the following command at the root of your project and answer questions:
 
+Open Server Directry
+```sh
+cd server
+```
+Install the Required Dependencies
 ```sh
 npm install
 ```
-
+Open Client Directry
+```sh
+cd client
+```
+Install the Required Dependencies
+```sh
+npm install
+```
 ## Usage
 
