@@ -8,7 +8,7 @@ const Contact = () => {
           <div class="flex flex-wrap  lg:justify-between -mx-4">
             <div class="w-full lg:w-1/2 xl:w-6/12 px-4">
               <div class="max-w-[570px] mb-12 lg:mb-0">
-                <span class="block mb-4 text-base text-primary font-semibold text-center text-emerald-400">
+                <span class="block mb-4 text-base text-primary font-semibold text-center text-black">
                   Contact Us
                 </span>
                 <h2
@@ -27,10 +27,8 @@ const Contact = () => {
                 >
                   GET IN TOUCH WITH US
                 </h2>
-                <p class="text-base text-body-color leading-relaxed mb-9 text-center text-emerald-500">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eius tempor incididunt ut labore et dolore magna aliqua. Ut
-                  enim adiqua minim veniam quis nostrud exercitation ullamco
+                <p class="text-base text-body-color leading-relaxed mb-9 text-center text-black">
+                We are a team of three final year engineer students, doing our best to contribute to the environment and society by taking small steps everyday.
                 </p>
                 <div class="flex mb-8 max-w-[370px] w-full">
                   <div
@@ -63,7 +61,7 @@ const Contact = () => {
                     <h4 class="font-bold text-dark text-xl mb-1  text-siteBlue">
                       Our Location
                     </h4>
-                    <p class="text-base text-body-color text-emerald-400">
+                    <p class="text-base text-body-color text-black">
                     Institute of Engineering and Technology(DAVV)
 Khandwa Road Indore
                     </p>
@@ -102,7 +100,7 @@ Khandwa Road Indore
                     <h4 class="font-bold text-dark text-xl mb-1 text-siteBlue">
                       Phone Number
                     </h4>
-                    <p class="text-base text-body-color text-emerald-400">
+                    <p class="text-base text-body-color text-black">
                     0731-2361116
                     </p>
                   </div>
@@ -138,7 +136,7 @@ Khandwa Road Indore
                     <h4 class="font-bold text-dark text-xl mb-1 text-siteBlue">
                       Email Address
                     </h4>
-                    <p class="text-base text-emerald-400">
+                    <p class="text-base text-black">
                       info@yourdomain.com
                     </p>
                   </div>
