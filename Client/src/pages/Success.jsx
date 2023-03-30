@@ -12,7 +12,7 @@ const Success = () => {
   />
     <div className='flex flex-col justify-center items-center m-12'>
         <img src="https://cdn-icons-png.flaticon.com/512/294/294432.png" alt=""  className='w-24'/>
-        <h1 className='text-3xl'>Thanks for Chossing Scrapify</h1>
+        <h1 className='text-3xl'>Thanks for Chossing Scrap Buddy</h1>
 
 </div>
  </> )

@@ -54,7 +54,7 @@ export default function Services() {
             Find NearBy Dealers
           </h1>
           <p className="text-[12px] xs:text-sm sm:text-lg md:text-xl">
-            There are a lot of scrap delers looking for the scrap. Our app ensures that the scrap is recycled. So if you have some scrap collected, contact someone from the dealers list.
+            There are a lot of scrap delers looking for the scrap. So if you have some scrap collected, contact someone from the dealers list.
           </p>
           <Link to="deal">
             <div className="btn mt-3 flex gap-2 hover:gap-10 duration-500">

@@ -6,7 +6,7 @@
         <div className="box">
         <h1 className=" sm:text-2xl md:text-6xl  font-bold my-2 text-white">What We Are</h1>
         <p className=" text-lg sm:text-base text-white ">
-          Scrapify is a project build to eradicate the problems of inefficient and slow waste management system and inproper disposal of recyclable products. Scrapify enables end-to-end user connectivity, great user friendliness, a sharp check on scrap disposal pipeline.
+          Scrap Buddy is a project build to eradicate the problems of inefficient and slow waste management system and inproper disposal of recyclable products. Scrap Buddy enables end-to-end user connectivity, great user friendliness, a sharp check on scrap disposal pipeline.
         </p>
         </div>
       </div>

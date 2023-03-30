@@ -28,7 +28,7 @@ function App() {
     Aos.init();
   }, []);
 
-  document.title = 'Scrapify'
+  document.title = 'Scrap Buddy'
 
   return (
     <>
