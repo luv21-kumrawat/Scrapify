@@ -54,13 +54,13 @@ const DealerProfile = () => {
           >
             Make a Deal
           </div>
-          <div className="flex box rounded-lg my-3">
+          {/* <div className="flex box rounded-lg my-3">
             <img
               src={map}
               alt="map route"
               className="mx-auto border-4 border-green-700"
             />
-          </div>
+          </div> */}
         </div>
       ) : (
         <h1>Loading...</h1>

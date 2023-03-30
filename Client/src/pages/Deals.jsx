@@ -19,10 +19,10 @@ export const geojson = {
       },
       properties: {
         title: "Rohan Kumar",
-        description: "Scrap Dealer from Sompuri",
+        description: "Scrap Dealer from New Palasia",
       },
       extraInfo: {
-        address: "Sompuri",
+        address: "New Palasia",
         phone: +916576423112,
       },
     },
@@ -35,10 +35,10 @@ export const geojson = {
       },
       properties: {
         title: "Sahil Dupia",
-        description: "Scrap Dealer from Sompuri",
+        description: "Scrap Dealer from Ranipura",
       },
       extraInfo: {
-        address: "Sompuri",
+        address: "Ranipura",
         phone: +916576423112,
       },
     },
@@ -51,10 +51,10 @@ export const geojson = {
       },
       properties: {
         title: "Mohd. Afzal",
-        description: "Scrap Dealer from Khathari",
+        description: "Scrap Dealer from Bada Ganpati",
       },
       extraInfo: {
-        address: "Sompuri",
+        address: "Bada Ganpati",
         phone: +916576423112,
       },
     },
@@ -67,10 +67,10 @@ export const geojson = {
       },
       properties: {
         title: "Sohan Rawat",
-        description: "Scrap Dealer from Sompuri",
+        description: "Scrap Dealer from IT park",
       },
       extraInfo: {
-        address: "Sompuri",
+        address: "IT park",
         phone: +916576423112,
       },
     },
@@ -83,10 +83,10 @@ export const geojson = {
       },
       properties: {
         title: "Mohan",
-        description: "Scrap Dealer from Badkal Mod",
+        description: "Scrap Dealer from Khandwa Naka",
       },
       extraInfo: {
-        address: "Sompuri",
+        address: "Khandwa Naka",
         phone: +916576423112,
       },
     },
@@ -171,7 +171,7 @@ const Deals = () => {
 
   return (
     <div className="box flex flex-col h-full">
-      <h1 className='text-center m-9 font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Make a Deal </h1>
+      <h1 className='text-center m-9 font-bold text-siteBlue text-5xl bg-clip-text '>Make a Deal </h1>
       <div className="relative w-full h-[600px]">
         <div className="map-container" ref={mapContainerRef} id="map" />
       </div>

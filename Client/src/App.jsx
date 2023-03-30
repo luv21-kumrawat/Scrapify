@@ -52,7 +52,7 @@ function App() {
           />
           <Route path="dealerprofile/:id" element={<DealerProfile />} />
           <Route path="success" element={<Success/>}/>
-          <Route path="rewards" element={<Rewards />} />
+          {/* <Route path="rewards" element={<Rewards />} /> */}
           <Route path="transactions" element={<Transaction />} />
         </Routes>
       </div>

@@ -8,7 +8,10 @@ module.exports = {
       colors: {
         siteLight: "#F7E3C5",
         sitegreen: "#5CF8AD",
-        siteBlue: "#4E71FF",
+        sitegreen1: "#3E851f",
+        // siteBlue: "#4E71FF",
+        siteBlue: "#1F851D",
+        siteBlue1: "#2EDA2B",
         siteBlack: "#535068",
         textBlack: "#141c3a",
       },

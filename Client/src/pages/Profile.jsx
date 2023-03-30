@@ -36,12 +36,12 @@ const Profile = () => {
           <span className="text-2xl text-green-500 mr-2  mb-2">Phone-No:</span>
           <h1 className="text-2xl ml-2 ">+{userInfo.phone}</h1>
           <div className="flex gap-5 flex-row my-5">
-            <div
+            {/* <div
               className="btn duration-300"
               onClick={() => navigate("/rewards")}
             >
               Your Rewards
-            </div>
+            </div> */}
             <div
               className="btn duration-300"
               onClick={() => navigate("/transactions")}
