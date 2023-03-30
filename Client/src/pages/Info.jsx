@@ -27,6 +27,18 @@ const Info = () => {
           </p>
         </div>
       </div>
+      <div className="box flex flex-row md:flex-row gap-3 md:gap-5 justify-between items-center  mb-5">
+        <div className="md:flex flex items-start flex-col justify-center mt-5">
+          <h1 className="hero-head text-xl sm:text-3xl lg:text-3xl font-bold my-1 sm:my-3 lg:my-5 text-textBlack relative">
+            <span>W</span>hat is <span>S</span>crap{" "}
+            <span>R</span>ecyling?
+          </h1>
+          <p className="text-[10px] sm:text-sm md:text-base lg:text-2l">
+          Scrap recycling refers to the process of collecting, processing, and reusing scrap materials, which are discarded or unwanted materials from industrial, commercial, and consumer sources. Scrap materials can include metal, plastic, paper, electronics, and other materials.
+          </p>
+        </div>
+      </div>
+      
       
 
       <Footer />

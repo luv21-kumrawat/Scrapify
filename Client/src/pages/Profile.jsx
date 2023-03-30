@@ -27,14 +27,14 @@ const Profile = () => {
           {userInfo.name}
         </h1>
         <div className="flex flex-col items-center mt-4">
-          <span className="text-2xl text-green-500 mr-2 mb-2 mt-2 ">Bio:</span>
-          <h1 className="text-2xl ml-2 ">{userInfo.bio}</h1>
-          <span className="text-2xl text-green-500 mr-2 mt-2  mb-2">
+          {/* <span className="text-2xl text-green-500 mr-2 mb-2 mt-2 ">Bio:</span>
+          <h1 className="text-2xl ml-2 ">{userInfo.bio}</h1> */}
+          <span className="text-2xl text-green-500 mr-2 mt-2 mb-2">
             Address:
           </span>
           <h1 className="text-2xl ml-2 ">{userInfo.address}</h1>
           <span className="text-2xl text-green-500 mr-2  mb-2">Phone-No:</span>
-          <h1 className="text-2xl ml-2 ">+{userInfo.phone}</h1>
+          <h1 className="text-2xl ml-2 ">{userInfo.phone}</h1>
           <div className="flex gap-5 flex-row my-5">
             {/* <div
               className="btn duration-300"
