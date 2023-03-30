@@ -1,9 +1,4 @@
 <h1 align="center">Welcome to Scrap Buddy 👋</h1>
-<p>
-  <a href="https://www.npmjs.com/package/Scrap Buddy" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/Scrap Buddy.svg">
-  </a>
-</p>
 
 > An Online Scrap-Waste Management Platform
 
@@ -11,9 +6,7 @@
 
 Make sure you have [npm] installed.
 
-Just run the following command at the root of your project and answer questions:
-
-Open Server Directry
+Open Server Directory
 ```sh
 cd server
 ```
@@ -21,7 +14,7 @@ Install the Required Dependencies
 ```sh
 npm install
 ```
-Open Client Directry
+Open Client Directory
 ```sh
 cd client
 ```
@@ -31,3 +24,14 @@ npm install
 ```
 ## Usage
 
+Make sure you are in client directory.
+
+Just run the following command at clent directory to run client:
+```sh
+npm run dev
+```
+
+Just run the following command at server directory to run client:
+```sh
+npm start
+```
