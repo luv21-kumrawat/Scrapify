@@ -4,7 +4,7 @@ const generateToken = require("../utils/generateToken");
 
 // twillio
 const accountSid = `ACb963744d30434c82c5a86ea10eca6487`;
-const authToken = `499ea6104cd49a2486167682930728df`;
+const authToken = `0f323857a247fd441f713a5d9bfb2f22`;
 const client = require("twilio")(accountSid, authToken);
 
 const register = async (req, res) => {

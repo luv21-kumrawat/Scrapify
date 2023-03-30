@@ -1,6 +1,6 @@
 const Transac = require("../models/TransactionModel");
 const accountSid = `ACb963744d30434c82c5a86ea10eca6487`;
-const authToken = `499ea6104cd49a2486167682930728df`;
+const authToken = `0f323857a247fd441f713a5d9bfb2f22`;
 // const client = require("twilio")(accountSid, authToken);
 const twilio = require('twilio');
 const client = twilio(accountSid, authToken);
@@ -29,12 +29,14 @@ const getAllTransac = async (req, res) => {
 
 const createTransac = async (req, res) => {
   try {
-    const { houseHold, dealer, mass } = req.body;
+    const { houseHold, address, scrapType, mass, dealer } = req.body;
 
     const newTrans = await Transac.create({
       houseHold: houseHold,
-      dealer: dealer,
+      address: address,
+      scrapType: scrapType,
       mass: mass,
+      dealer: dealer,
     });
 
     res.status(200).json(newTrans);

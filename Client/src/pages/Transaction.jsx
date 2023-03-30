@@ -31,9 +31,11 @@ const Transaction = () => {
     <tr>
       <th class="border border-slate-600">#</th>
       <th class="border border-slate-600">Dealer</th>
-      <th class="border border-slate-600">Household</th>
-      <th class="border border-slate-600">Date</th>
+      <th class="border border-slate-600">HouseHold</th>
+      <th class="border border-slate-600">Address</th>
+      <th class="border border-slate-600">ScrapType</th>
       <th class="border border-slate-600">Mass</th>
+      <th class="border border-slate-600">Date</th>
     </tr>
   </thead>
   <tbody>
@@ -44,8 +46,10 @@ const Transaction = () => {
       <td class="border border-slate-700 text-center">{index+1}</td>
       <td class="border border-slate-700 text-center">{eachdata.dealer}</td>
       <td class="border border-slate-700 text-center">{eachdata.houseHold}</td>
-      <td class="border border-slate-700 text-center">{eachdata.date}</td>
+      <td class="border border-slate-700 text-center">{eachdata.address}</td>
+      <td class="border border-slate-700 text-center">{eachdata.scrapType}</td>
       <td class="border border-slate-700 text-center">{eachdata.mass}</td>
+      <td class="border border-slate-700 text-center">{eachdata.date}</td>
     </tr>
     
     )})}

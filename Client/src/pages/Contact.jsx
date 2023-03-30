@@ -62,8 +62,8 @@ const Contact = () => {
                       Our Location
                     </h4>
                     <p class="text-base text-body-color text-black">
-                    Institute of Engineering and Technology(DAVV)
-Khandwa Road Indore
+                    Institute of Engineering and Technology(DAVV),
+Khandwa Road, Indore
                     </p>
                   </div>
                 </div>

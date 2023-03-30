@@ -6,13 +6,22 @@ const TransactionSchema = mongoose.Schema(
       type: "string",
       required: true,
     },
+    address: {
+      type: "string",
+      required: true,
+    },
+    scrapType: {
+      type: "string",
+      required: true,
+    },
+    mass: { type: Number, required: true },
     dealer: {
       type: "string",
       required: true,
+      default: "Rohan",
     }, //populate
     date: { type: Date, default: Date.now() },
     amount: { type: Number },
-    mass: { type: Number, required: true },
     isPayment: { type: Boolean, default: false },
     isPending: { type: Boolean, default: true },
     isPicked: { type: Boolean, default: false },

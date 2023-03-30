@@ -21,16 +21,19 @@ const CreateDeal = () => {
         hMessage:
           "Your order has been successfully made. Hope you will get the service as soon as possible",
         sMessage:
-          "Hey Rohan! You have received a new deal. Kindly look into the details through applicaation",
+          "Hey Rohan! You have received a new deal. Kindly look into the details through application",
         orderData: JSON.stringify(orderData),
       };
       const kuchbhi = {
-        houseHold : 'Iron',
+        houseHold : orderData.name,
+        address: orderData.address,
+        scrapType: orderData.scrapType,
+        mass: orderData.mass,
         dealer : 'Rohan',
-        mass : '69'
       };
-      await axios.post(`${Base_URL}/transac/add`, kuchbhi);
+      // console.log(orderData);
       await axios.post(`${Base_URL}/transac/newDeal`, data);
+      await axios.post(`${Base_URL}/transac/add`, kuchbhi);
 navigate("/success")
       toast.success('Hey!! Your booked a new deal, Checkout Timeline for updates')
       // console.log(data);
@@ -98,7 +101,7 @@ navigate("/success")
             </div>
             Add an image :{" "}
           </label>
-          <input type="file" accept="image/*" className="text-white" />
+          <input type="file" accept="image/*" className="text-black" />
           <Button variant="contained" type="submit">
             CREATE
           </Button>
