@@ -4,7 +4,7 @@ const { createTransac, getAllTransac, updateTransac, getTransDetails, newDealWha
 const router = express.Router();
 
 router.post('/add', createTransac);
-router.get('/:id', getAllTransac);
+router.get('/', getAllTransac);
 router.get('/info/:id', getTransDetails)
 router.put('/update', updateTransac);
 router.post('/newDeal', newDealWhatsapp);

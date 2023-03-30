@@ -1,9 +1,5 @@
 .hero-head > span {
-<<<<<<< HEAD
-  color: #4e71ff;
-=======
   color: green;
->>>>>>> master
   transition: all 500ms ease;
 }
 .hero-head:hover.hero-head > span {
@@ -14,23 +10,13 @@
 
 @keyframes colorChange {
   0% {
-<<<<<<< HEAD
-    color: #4e71ff;
-  }
-  50% {
-    color: #5cf8ad;
-  }
-  100% {
-    color: #4e71ff;
-=======
-    color: green;
+    color: #008000;
   }
   50% {
     color: #05FE00;
   }
   100% {
     color: green;
->>>>>>> master
   }
 }
 
